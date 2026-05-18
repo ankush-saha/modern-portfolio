@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Ankush Saha, a Computer Science undergraduate building NLP, web, and data-driven software.">
+    <title>Ankush Saha | Software & NLP Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <canvas id="signalCanvas" aria-hidden="true"></canvas>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="topbar" data-reveal>
+      <a class="brand" href="#home" aria-label="Ankush Saha home">
+        <span class="brand-mark">AS</span>
+        <span>Ankush Saha</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#story">Story</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="icon-button" href="assets/Ankush_Saha_Resume.pdf" target="_blank" rel="noopener" aria-label="Open resume PDF">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M14 2H7a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V8z"></path>
+          <path d="M14 2v6h6"></path>
+          <path d="M12 18v-6"></path>
+          <path d="m9 15 3 3 3-3"></path>
+        </svg>
+        <span>Resume</span>
+      </a>
+    </header>
+
+    <main id="home">
+      <section class="hero section-band">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">Computer Science Undergraduate | NLP Builder | Cloud-Curious Engineer</p>
+          <h1>I build useful software where data, language, and clean interfaces meet.</h1>
+          <p class="hero-text">
+            I am a Computer Science Engineering student at KIIT, focused on strong fundamentals,
+            practical NLP applications, and software that turns messy inputs into clear decisions.
+          </p>
+          <div class="hero-actions" aria-label="Portfolio actions">
+            <a class="primary-action" href="#work">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14"></path>
+                <path d="m13 6 6 6-6 6"></path>
+              </svg>
+              <span>Explore my work</span>
+            </a>
+            <a class="secondary-action" href="mailto:ankushsaha.work@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 4h16v16H4z"></path>
+                <path d="m4 7 8 6 8-6"></path>
+              </svg>
+              <span>Email me</span>
+            </a>
+          </div>
+          <div class="quick-links" aria-label="Profile links">
+            <a href="https://github.com/ankush-saha" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/ankushsaha-mail-sahaankush120" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="tel:+918910379300">+91 8910379300</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="portrait-wrap">
+            <img src="assets/ankush-portrait.png" alt="Portrait of Ankush Saha">
+            <div class="scan-line" aria-hidden="true"></div>
+          </div>
+          <div class="signal-panel">
+            <span class="panel-label">Current signal</span>
+            <strong>Open to software engineering and data-driven roles</strong>
+            <div class="signal-meter" aria-hidden="true"><span></span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Resume highlights" data-reveal>
+        <article>
+          <span>2023-2027</span>
+          <p>B.Tech in Computer Science Engineering</p>
+        </article>
+        <article>
+          <span>8.74/10</span>
+          <p>Current CGPA at KIIT Bhubaneswar</p>
+        </article>
+        <article>
+          <span>AWS x2</span>
+          <p>Cloud Architecting and Cloud Foundations</p>
+        </article>
+        <article>
+          <span>NLP</span>
+          <p>Resume ranking, parsing, and relevance scoring</p>
+        </article>
+      </section>
+
+      <section id="work" class="section-band work-section">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Selected build</p>
+          <h2>Resume intelligence, not just resume screening.</h2>
+          <p>
+            My featured project ranks candidates by meaning and relevance, combining TF-IDF,
+            cosine similarity, parsing, keyword scoring, and a Streamlit interface.
+          </p>
+        </div>
+
+        <article class="project-showcase" data-reveal>
+          <div class="project-header">
+            <span class="project-index">01</span>
+            <div>
+              <h3>Resume Screening Web Application</h3>
+              <p>Python, NLP, Streamlit</p>
+            </div>
+            <a class="icon-button project-link" href="https://github.com/ankush-saha/resume_screening-NLP" target="_blank" rel="noopener" aria-label="Open Resume Screening Web Application on GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 17 17 7"></path>
+                <path d="M7 7h10v10"></path>
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+          <div class="project-grid">
+            <div class="project-terminal" aria-label="Project flow preview">
+              <div class="terminal-top">
+                <span></span><span></span><span></span>
+              </div>
+              <pre><code>input: resumes + role description
+parse: skills, keywords, experience signals
+score: TF-IDF + cosine similarity
+rank: candidate fit list
+output: recruiter-ready Streamlit view</code></pre>
+            </div>
+            <ul class="project-points">
+              <li>Developed an NLP-based resume ranking system using TF-IDF and cosine similarity.</li>
+              <li>Implemented automated resume parsing and keyword relevance scoring.</li>
+              <li>Built a Streamlit interface for uploading resumes and comparing candidates.</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <section id="skills" class="section-band skills-section">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Technical map</p>
+          <h2>A practical stack with strong CS roots.</h2>
+          <p>
+            The portfolio is organized around what I can build with now, and the foundations
+            that make those builds easier to scale.
+          </p>
+        </div>
+
+        <div class="skill-map" data-reveal>
+          <article class="skill-card featured">
+            <span>Languages</span>
+            <h3>Java, Python, C</h3>
+            <p>Core programming for problem solving, tooling, and application logic.</p>
+          </article>
+          <article class="skill-card">
+            <span>Web</span>
+            <h3>HTML, CSS, Streamlit</h3>
+            <p>Interface building for responsive web pages and fast data app prototypes.</p>
+          </article>
+          <article class="skill-card">
+            <span>NLP</span>
+            <h3>spaCy, scikit-learn, TF-IDF</h3>
+            <p>Text processing, vectorization, fuzzy matching, and relevance scoring.</p>
+          </article>
+          <article class="skill-card">
+            <span>Databases</span>
+            <h3>SQL, MySQL</h3>
+            <p>Relational querying and data modeling fundamentals.</p>
+          </article>
+          <article class="skill-card">
+            <span>CS Core</span>
+            <h3>DSA, OOP, DBMS, OS, CN</h3>
+            <p>Data Structures and Algorithms, networks, operating systems, and sockets.</p>
+          </article>
+          <article class="skill-card">
+            <span>Tools</span>
+            <h3>Linux WSL, Git, GitHub</h3>
+            <p>Development workflows across IntelliJ IDEA, VS Code, Eclipse, and version control.</p>
+          </article>
+          <article class="skill-card">
+            <span>Hardware</span>
+            <h3>Xilinx Vivado</h3>
+            <p>Basic digital circuit implementation and FPGA tooling exposure.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="story" class="section-band story-section">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Trajectory</p>
+          <h2>Learning in public, building with intent.</h2>
+        </div>
+
+        <div class="timeline" data-reveal>
+          <article>
+            <span class="time">2023 - 2027</span>
+            <h3>B.Tech in Computer Science Engineering</h3>
+            <p>Kalinga Institute of Industrial Technology, Bhubaneswar. Current CGPA: 8.74/10.00.</p>
+          </article>
+          <article>
+            <span class="time">Dec 2024</span>
+            <h3>AWS Academy Graduate - Cloud Architecting</h3>
+            <p>60-hour cloud architecting certification through Amazon Web Services Academy.</p>
+            <a href="https://www.credly.com/go/PsQwZhGs" target="_blank" rel="noopener">Credential link</a>
+          </article>
+          <article>
+            <span class="time">Dec 2024</span>
+            <h3>AWS Academy Graduate - Cloud Foundations</h3>
+            <p>20-hour cloud foundations certification through Amazon Web Services Academy.</p>
+            <a href="https://www.credly.com/go/3x9EEtUn" target="_blank" rel="noopener">Credential link</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section" data-reveal>
+        <div>
+          <p class="eyebrow">Ready for the next build</p>
+          <h2>Let’s turn a messy problem into a clean product.</h2>
+          <p>
+            I am looking for software engineering or data-driven roles where I can apply strong
+            problem solving, development skills, and NLP experience.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="primary-action" href="mailto:ankushsaha.work@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 4h16v16H4z"></path>
+              <path d="m4 7 8 6 8-6"></path>
+            </svg>
+            <span>ankushsaha.work@gmail.com</span>
+          </a>
+          <a class="secondary-action" href="https://linkedin.com/in/ankushsaha-mail-sahaankush120" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <path d="M2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a href="#home">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
