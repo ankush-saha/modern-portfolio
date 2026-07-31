@@ -1,55 +1,52 @@
-# 🚀 Personal Portfolio Website
+# ⚡ Ankush Saha — Software & NLP Portfolio
 
-A modern, responsive, and interactive personal portfolio website built with **HTML, CSS, and Vanilla JavaScript** to showcase my projects, technical skills, certifications, and experience.
+A premium, responsive portfolio website crafted to showcase my journey as a **Computer Science undergraduate**, highlighting my software engineering projects, NLP applications, technical skills, certifications, and professional experience.
 
-Designed with a futuristic glassmorphism interface, smooth animations, and a clean user experience, this portfolio reflects both my technical background and passion for frontend development.
+Inspired by modern editorial design and interactive web experiences, this portfolio combines elegant typography, dynamic canvas animations, and smooth micro-interactions to create a memorable experience for recruiters and developers alike.
 
 ---
 
 ## 🌐 Live Demo
 
-🔗 **Portfolio Website:** https://ankushsaha-portfolio.vercel.app
-
-Experience the live portfolio showcasing my projects, technical skills, certifications, and professional journey.
-
+🔗 **Website:** https://ankushsaha-portfolio.vercel.app
 
 ---
 
 ## ✨ Features
 
-🎨 Modern Glassmorphism UI
+🎨 Premium Editorial-Inspired UI
 
-🖱️ Interactive Custom Cursor
-
-⌨️ Dynamic Typing Animation
-
-🌊 Smooth Scroll Navigation
+🌐 Interactive Signal Network Background (HTML5 Canvas)
 
 ✨ Scroll Reveal Animations
 
-📱 Fully Responsive Design
+🎯 Active Navigation Highlighting
 
-💼 Project Showcase
+📱 Fully Responsive Layout
 
-🛠️ Technical Skills Section
+🚀 Modern Hero Section
 
-🏆 Certifications Display
+🧠 Skills Visualization
 
-📧 Contact Section with Social Links
+💼 Featured Project Showcase
 
-🎯 Clean and Minimal User Experience
+📊 Professional Resume Highlights
 
-⚡ Lightweight with Zero Frameworks
+🏆 Certifications Timeline
+
+📞 Contact & Social Links
+
+⚡ Lightweight & High Performance
 
 ---
 
-## 📸 Sections
+## 📸 Website Sections
 
 * 🏠 Hero
-* 👨‍💻 About Me
+* 📈 Resume Highlights
+* 🚀 Featured Project
 * 💻 Technical Skills
-* 🚀 Featured Projects
-* 🏅 Certifications
+* 📚 Career Timeline
 * 📬 Contact
 
 ---
@@ -62,27 +59,27 @@ Experience the live portfolio showcasing my projects, technical skills, certific
 * CSS3
 * JavaScript (ES6)
 
-### Styling
+### JavaScript APIs
 
-* CSS Variables
-* Glassmorphism
+* HTML5 Canvas API
+* Intersection Observer API
+* DOM Manipulation
+* Smooth Scrolling
+* RequestAnimationFrame
+
+### Design
+
+* Responsive Layout
 * CSS Grid
 * Flexbox
-* Responsive Design
 * Custom Animations
+* Glass Effects
+* Editorial Typography
 
-### JavaScript Features
+### Fonts
 
-* Intersection Observer API
-* Typing Animation
-* Smooth Scrolling
-* Custom Cursor
-* DOM Manipulation
-
-### Icons & Fonts
-
-* Font Awesome
-* Google Fonts (Outfit)
+* Inter
+* JetBrains Mono
 
 ---
 
@@ -90,95 +87,88 @@ Experience the live portfolio showcasing my projects, technical skills, certific
 
 Clone the repository
 
-```bash id="p6o2oq"
-git clone https://github.com/your-username/portfolio.git
+```bash
+git clone https://github.com/your-username/software-portfolio.git
 ```
 
-Go to the project folder
+Move into the project directory
 
-```bash id="n2ekkt"
-cd portfolio
+```bash
+cd software-portfolio
 ```
 
 Run locally
 
 Simply open
 
-```text id="g4c7or"
+```text
 index.html
 ```
 
 in your browser.
 
-No installation required.
+No additional installation or dependencies are required.
 
 ---
 
 ## 📂 Project Structure
 
-```text id="h8dbj4"
-portfolio/
+```text
+software-portfolio/
 │
 ├── index.html
-├── style.css
+├── styles.css
 ├── script.js
 ├── assets/
-│   ├── images/
-│   └── icons/
+│   ├── Ankush_Saha_Resume.pdf
+│   ├── ankush-portrait.png
+│   └── ...
 └── README.md
 ```
 
 ---
 
-## 🎯 Highlights
+## 🚀 Featured Project
 
-* Modern UI with Glassmorphism
-* Interactive Hero Section
-* Animated Typing Effect
-* Smooth Section Transitions
-* Responsive Navigation
-* Custom Cursor Experience
-* Professional Project Showcase
-* Certification Cards
-* Clean Contact Section
-* Optimized for Desktop & Mobile
+### Resume Screening Web Application
 
----
+An NLP-powered resume ranking platform that intelligently evaluates resumes using **TF-IDF**, **Cosine Similarity**, keyword relevance scoring, and resume parsing to assist recruiters in selecting the best candidates.
 
-## 💼 Featured Project
-
-### 📄 Resume Screening Web Application
-
-An NLP-powered resume ranking system that analyzes resumes using **TF-IDF** and **Cosine Similarity**, providing automated resume parsing and intelligent candidate ranking through a Streamlit-based interface.
-
-**Technologies**
+### Technologies Used
 
 * Python
 * Streamlit
+* NLP
 * spaCy
 * Scikit-learn
-* NLP
 * TF-IDF
+* Cosine Similarity
 
 ---
 
-## 🎨 Design Philosophy
+## 💡 Technical Highlights
 
-This portfolio focuses on:
+* Interactive animated background using the HTML5 Canvas API
+* Mouse-responsive particle network
+* Smooth section reveal animations
+* Automatic active navigation detection
+* Responsive design for desktop, tablet, and mobile devices
+* Professional project presentation
+* Timeline-based education and certifications
+* Resume download integration
+* Optimized performance with Vanilla JavaScript
 
-* Clean UI
-* Smooth interactions
-* Minimalistic layout
-* Modern typography
-* High readability
-* Fast performance
-* Professional presentation
+---
+
+## 🎯 Why This Portfolio?
+
+This project was built to go beyond a traditional resume by providing a modern, interactive platform where visitors can explore my technical skills, featured projects, academic achievements, and career journey through an engaging user experience.
 
 ---
 
 ## 📱 Responsive Design
 
-The website is optimized for:
+Optimized for:
 
 * 💻 Desktop
 * 💼 Laptop
@@ -187,42 +177,30 @@ The website is optimized for:
 
 ---
 
-## 📈 Future Improvements
+## 🚀 Future Improvements
 
-* 🌙 Dark/Light Theme Toggle
+* 🌙 Dark / Light Mode Toggle
+* 📊 GitHub Contribution Graph
+* 📈 GitHub Statistics Cards
+* 📝 Technical Blog
+* 🎥 Live Project Demonstrations
 * 🌍 Multi-language Support
-* 📊 GitHub Statistics Integration
-* 📝 Blog Section
-* 🎥 Project Demo Videos
-* 📂 Project Filtering
-* 📄 Download Resume Button
-* 📬 Contact Form with Email Integration
-* 🌟 More Interactive Animations
-
----
-
-## 🤝 Contributing
-
-Contributions, ideas, and suggestions are welcome.
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
+* 📄 Resume Preview
+* 💬 Contact Form Backend
+* 🤖 AI Chat Assistant
 
 ---
 
 ## 👨‍💻 About Me
 
-I'm **Ankush Saha**, a Computer Science undergraduate passionate about software engineering, problem-solving, and building scalable applications.
+I'm **Ankush Saha**, a Computer Science undergraduate at **KIIT University**, passionate about building scalable software, solving real-world problems, and exploring Natural Language Processing, Cloud Computing, and modern software engineering.
 
-### Interests
+### Areas of Interest
 
-* Software Development
+* Software Engineering
 * Data Structures & Algorithms
+* Natural Language Processing
 * Machine Learning
-* NLP
 * Cloud Computing
 * Web Development
 
@@ -230,32 +208,38 @@ I'm **Ankush Saha**, a Computer Science undergraduate passionate about software 
 
 ## 📫 Connect With Me
 
-* 💼 LinkedIn
-* 💻 GitHub
-* 📧 Email
+🌐 **Portfolio:** https://ankushsaha-portfolio.vercel.app
+
+💼 **LinkedIn:** https://linkedin.com/in/ankushsaha-mail-sahaankush120
+
+💻 **GitHub:** https://github.com/ankush-saha
+
+📧 **Email:** [ankushsaha.work@gmail.com](mailto:ankushsaha.work@gmail.com)
 
 ---
 
-## ⭐ Show Your Support
+## ⭐ Support
 
-If you found this project useful or inspiring, please consider giving it a **⭐ Star** on GitHub.
+If you like this project, consider giving it a **⭐ Star** on GitHub.
 
-Your support motivates me to build more open-source projects!
+It helps others discover my work and motivates me to continue building open-source projects.
 
 ---
 
-## 📜 License
+## 📄 License
 
 This project is licensed under the **MIT License**.
 
-Feel free to fork, customize, and use it as your own portfolio template with proper attribution.
+Feel free to fork, customize, and use it as inspiration for your own portfolio.
 
 ---
 
 <div align="center">
 
-### ⭐ Thanks for visiting!
+# 🚀 Thanks for Visiting!
 
-*"Building elegant solutions through code, creativity, and continuous learning."*
+*"Code with purpose. Design with clarity. Build for impact."*
+
+**Made with ❤️ by Ankush Saha**
 
 </div>
